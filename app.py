@@ -1,6 +1,5 @@
 
 # Install required dependencies
-!pip install streamlit
 !pip install sentence-transformers
 
 # Import necessary libraries
