@@ -1,10 +1,13 @@
 
+# Install required dependencies
+!pip install streamlit
+!pip install sentence-transformers
+
 # Import necessary libraries
 import streamlit as st
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
-import faiss
 import base64
 
 # Define a function to perform matching and generate similarity scores
